@@ -1,0 +1,6 @@
+@DivisoresPrimosApi_HostAddress = http://localhost:5084
+
+GET {{DivisoresPrimosApi_HostAddress}}/api/Divisores
+Accept: application/json
+
+###
