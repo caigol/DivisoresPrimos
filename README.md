@@ -117,7 +117,7 @@ Os testes cobrem cenários de cálculo de divisores, verificação de números p
 1. Clone este repositório:
 
    \`\`\`bash
-   git clone https://github.com/SEU_USUARIO/MinhaSolution.git
+   git clone https://github.com/caigol/DivisoresPrimos.git
    cd MinhaSolution
    \`\`\`
 
