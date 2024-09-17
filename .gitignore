@@ -1,0 +1,50 @@
+# Ignore arquivos e diretórios da build
+bin/
+obj/
+
+# Ignore pacotes instalados localmente
+*.nupkg
+*.snupkg
+
+# Ignore dependências globais do .NET Core
+project.lock.json
+project.fragment.lock.json
+
+# Logs
+*.log
+logs/
+
+# Arquivos de backup ou temporários
+*.bak
+*.tmp
+
+# Diretório de pacotes do NuGet
+**/packages/
+# Se você estiver usando o diretório global do NuGet, ignore também este
+~/.nuget/
+
+# Arquivos de configuração do Visual Studio e do Rider
+.vscode/
+.idea/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de build do Visual Studio
+*.dbmdl
+*.vcxproj.user
+*.sqlproj
+*.sqlproj.user
+
+# Arquivos do Rider e do Resharper
+*.DotSettings.user
+
+# Arquivos do sistema de controle de versão local
+.gitignore
+.git/
+
+# Pastas de publicação
+publish/
+wwwroot/
